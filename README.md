@@ -18,5 +18,5 @@ This is just me putzing around with PHP. Some code might not be pretty, some of 
 
 ## Stuff used to make this site:
 
-[Laravel 5.4](https://laravel.com/)
-[Laracasts / Laravel 5.4 From Scratch](https://laracasts.com/series/laravel-from-scratch-2017)
+* [Laravel 5.4](https://laravel.com/)
+* [Laracasts / Laravel 5.4 From Scratch](https://laracasts.com/series/laravel-from-scratch-2017)
