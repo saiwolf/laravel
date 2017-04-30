@@ -1,8 +1,6 @@
 @extends('layouts.master')
 
 @section('content')
-  <div class="row">
-
     <div class="col-sm-8 blog-main">
 
       <div class="blog-post">
@@ -69,6 +67,6 @@
         <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
       </nav>
 
-    </div><!-- /.blog-main -->
+    </div>
 
 @endsection

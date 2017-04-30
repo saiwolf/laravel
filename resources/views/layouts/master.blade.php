@@ -18,16 +18,11 @@
   </head>
 
   <body>
-    @include('layouts.nav')
+    @include('layouts.header')
     <div class="container">
+       <div class="row">
             @yield('content') <!-- Main Content -->
-            <div class="col-sm-3 offset-sm-1 blog-sidebar"> <!-- .blog-sidebar -->
-                @include('layouts.about')
-                @include('layouts.archive')
-                @include('layouts.links')
-            </div><!-- /.blog-sidebar -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
+    @include('layouts.sidebar')
     @include('layouts.footer')
   </body>
 </html>
