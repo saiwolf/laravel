@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>My App</title>
     </head>
 <body>
-    <h1>{{ $task->body }}</h1>
+    @yield('content')
 </body>
 </html>
