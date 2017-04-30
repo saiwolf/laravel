@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Blog Template for Bootstrap</title>
+    <title>My Blog</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -20,10 +20,14 @@
   <body>
     @include('layouts.nav')
     <div class="container">
-        @yield('content')
+            @yield('content') <!-- Main Content -->
+            <div class="col-sm-3 offset-sm-1 blog-sidebar"> <!-- .blog-sidebar -->
+                @include('layouts.about')
+                @include('layouts.archive')
+                @include('layouts.links')
+            </div><!-- /.blog-sidebar -->
+        </div><!-- /.row -->
     </div><!-- /.container -->
-    </div>
-
     @include('layouts.footer')
   </body>
 </html>
